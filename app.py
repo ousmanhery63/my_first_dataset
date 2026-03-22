@@ -9,7 +9,7 @@ st.title("📊 Dashboard d'analyse de données")
 uploaded_file = st.file_uploader("Importer votre dataset", type=["csv"])
 
 if uploaded_file is not None:
-    df = pd.read_csv(uploaded_file)
+    df = pd.read_csv("Dataset.csv")
 
     st.subheader("Aperçu des données")
     st.dataframe(df)
