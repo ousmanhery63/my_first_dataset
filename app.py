@@ -3,7 +3,8 @@ import pandas as pd
 import plotly.express as px
 
 # Titre
-st.title("📊 Dashboard d'analyse de données")import streamlit as st
+st.title("📊 Dashboard d'analyse de données")
+import streamlit as st
 import pandas as pdimport streamlit as st
 import pandas as pd
 import plotly.express as px
