@@ -11,14 +11,10 @@ import plotly.express as px
 st.set_page_config(page_title="Dashboard Data", layout="wide")
 
 # Titre
-st.title("📊 Dashboard d’analyse de données")
+st.title("📊 Dashboard d'analyse de données")
 
 # Chargement des données (local)
-@st.cache_data
-def load_data():
-    return pd.read_csv("Dataset.csv")
-
-df = load_data()
+data = pd.read_csv("Dataset.csv")
 
 # Aperçu
 st.subheader("📁 Aperçu du dataset")
